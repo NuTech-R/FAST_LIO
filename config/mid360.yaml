@@ -9,6 +9,10 @@
         runtime_pos_log_enable: false
         map_file_path: "./test.pcd"
 
+        frames:
+            map_frame: "map"              # frame name of the map (world coordinate frame)
+            base_frame: "base_footprint"  # frame name of the base (robot base frame)
+
         common:
             lid_topic:  "/livox/lidar"
             imu_topic:  "/livox/imu"
